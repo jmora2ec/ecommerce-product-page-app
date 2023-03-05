@@ -31,6 +31,7 @@ Product page application made with react components and build with vite front-en
 ## Screenshots
 ![Desktop design](./design/desktop-design.jpg)
 <p align="center">
-![Mobil design](./design/mobile-design.jpg)
+  <img src="./design/mobile-design.jpg" />
+<!--![Mobil design](./design/mobile-design.jpg) -->
 </p>
 ![active-state-lightbox](./design/active-states-lightbox.jpg)
