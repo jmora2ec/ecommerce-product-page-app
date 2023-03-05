@@ -1,0 +1,37 @@
+.burger-button {
+  background-color: transparent;
+  border: none;
+  z-index: 9;
+
+  .line {
+    fill: var(--clr-dark-gray-blue);
+    transition: y 200ms ease-in 200ms, rotate 200ms ease-in, opacity 0ms 200ms;
+    transform-origin: center;
+  }
+}
+
+.burger-button.open .line {
+  transition: y 200ms ease-in, rotate 200ms ease-in 200ms, opacity 0ms;
+}
+
+.burger-button.open :is(.top, .bottom) {
+  y: 45;
+}
+
+.burger-button.open .top {
+  rotate: 45deg;
+}
+
+.burger-button.open .bottom {
+  rotate: -45deg;
+}
+
+.burger-button.open .middle {
+  opacity: 0;
+}
+
+@media screen and (min-width: 1023px) {
+  .burger-button {
+    display: none;
+  }
+}

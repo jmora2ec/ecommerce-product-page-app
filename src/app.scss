@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a,
+a:active,
+a:visited {
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+
+  --clr-orange: hsl(26, 100%, 55%);
+  --clr-orange-pale: hsl(25, 100%, 94%);
+  --clr-dark-blue: hsl(220, 13%, 13%);
+  --clr-dark-gray-blue: hsl(219, 9%, 45%);
+  --clr-gray-blue: hsl(220, 14%, 75%);
+  --clr-light-gray: hsl(223, 64%, 98%);
+}
+
+body {
+  font-size: 1.6rem;
+  --bs-body-font-family: 'Kumbh Sans', sans-serif;
+}
+
+.app {
+  max-width: 1440px;
+  margin-inline: auto;
+  padding-inline: 1.8rem;
+  position: relative;
+}

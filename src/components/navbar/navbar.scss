@@ -1,0 +1,28 @@
+.nav-bar {
+  display: flex;
+  align-items: center;
+  padding-block: 1.8rem;
+
+  .logo {
+    color: var(--clr-dark-blue);
+    font-size: 3.6rem;
+    font-weight: 700;
+    padding-left: 1rem;
+    line-height: 1;
+  }
+  .widgets {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-left: auto;
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .nav-bar {
+    border-bottom: 1px solid hsl(240, 2%, 84%);
+    margin-bottom: 4rem;
+    padding-block: 0;
+  }
+}

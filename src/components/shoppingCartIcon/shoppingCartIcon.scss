@@ -1,0 +1,19 @@
+.shoppingCartIcon {
+  z-index: 2;
+  position: relative;
+}
+
+.shoppingCartIcon.empty svg path {
+  fill: #69707d;
+}
+
+.shoppingCartLabel {
+  background-color: var(--clr-orange);
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  border-radius: 8px;
+}
