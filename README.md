@@ -3,11 +3,12 @@
 ## Description
 
 Product page application made with react components and build with vite front-end tool, with some features:
--mobil responsive
--mobil menu
--light box images
--product picture slides
--shopping cart management
+
+- mobil responsive
+- mobil menu
+- light box images
+- product picture slides
+- shopping cart management
 
 ## Tools and libraries used
 
@@ -30,4 +31,4 @@ Product page application made with react components and build with vite front-en
 ## Screenshots
 ![Desktop design](./design/desktop-design.jpg)
 ![Mobil design](./design/mobile-design.jpg)
-![active-state-lightbox] (./design/active-states-lightbox.jpg)
+![active-state-lightbox](./design/active-states-lightbox.jpg)
